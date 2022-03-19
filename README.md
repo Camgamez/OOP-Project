@@ -5,7 +5,7 @@ This project is a colaboratory proccess between students of the National Univers
 
 The names of the students currently working on the project are: 
  - Deiver Bernal.
- - Sebastian Villareal.
+ - Alejandro Guacaneme.
  - Camilo Gamez. 
 
 ---
