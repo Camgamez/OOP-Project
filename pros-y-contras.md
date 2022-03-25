@@ -18,6 +18,7 @@ The mapping system its a good idea|A mapping tool its a completely different tec
 
 pros|contras
 ---|---
+An efficient system for shared-home people to organice their laundry.|It needs to be worked in Android studio.
 
 ### Video Game
 
