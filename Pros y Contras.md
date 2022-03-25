@@ -8,7 +8,7 @@ As of right now, we have three main ideas we want to work on: **Busca UN libro**
 
 ### Busca UN libro
 
-pros|contras
+Pros|Contras
 ---|---
 Its a very real project with solutions for real problems|we depend of several third parties to even start developing.
 We are contributing to the UN library's system for the benefit of all its workers and users|We predent to work a very big data base. 
@@ -16,13 +16,13 @@ The mapping system its a good idea|A mapping tool its a completely different tec
 
 ### Laundry App
 
-pros|contras
+Pros|Contras
 ---|---
 An efficient system for shared-home people to organice their laundry.|It needs to be worked in Android studio.
 
 ### Video Game
 
-pros|contras
+Pros|Contras
 ---|---
 Its very object oriented|We would be tackling rather a social problem which its not completely defined.
 Gives a better and more dinamic experience for a user interested in learn about that problematic.|We need to work in a system that integrates both sides of the project: the social prolematic and the gameplay.
