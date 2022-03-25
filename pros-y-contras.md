@@ -10,7 +10,9 @@ As of right now, we have three main ideas we want to work on: **Busca UN libro**
 
 pros|contras
 ---|---
-Its a very real project with solutions for real problems.|We depend of several third parties to even start developing.
+Its a very real project with solutions for real problems|we depend of several third parties to even start developing.
+We are contributing to the UN library's system for the benefit of all its workers and users|We predent to work a very big data base. 
+
 
 ### Laundry App
 
@@ -21,4 +23,4 @@ pros|contras
 
 pros|contras
 ---|---
-Its very object oriented
+Its very object oriented|We would be tackling rather a social problem which its not completely defined.
