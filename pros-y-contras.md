@@ -10,4 +10,15 @@ As of right now, we have three main ideas we want to work on: **Busca UN libro**
 
 pros|contras
 ---|---
+Its a very real project with solutions for real problems|we depend of several third parties to even start developing.
 
+### Laundry App
+
+pros|contras
+---|---
+
+### Video Game
+
+pros|contras
+---|---
+Its very object oriented
