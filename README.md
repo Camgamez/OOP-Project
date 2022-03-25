@@ -14,5 +14,16 @@ The names of the students currently working on the project are:
 The project is related to the Object Oriented Programing course for 2022-1 at the National University of Colombia, instructed by Nestor German Bolivar Pulgarin. 
 
 ---
+## Posible project ideas: 
 
-Currently we are working on setteling on what real-life problem are we going to address. From there, the objectives will be proposed and therefore we will define a route to work on this project in an orderly manner that can allow us to get finished in time. 
+### 1. Improvements in the library system
+
+Take the existing programs that exist to manage the libray and improve on them by creating a program that can give is big data information about the books on the library and the behaviors of users.
+---
+### 2. Narrative video-game with social problematic implications
+
+Construct a video-game that can tackle a sociological problematic from a materialist perspective.  
+---
+### 3. Organized system por laundry machines administration
+
+Develop an app that makes it easier to manage the clothes that come-in to a laundry shop so users don't get their clothes missing. 
