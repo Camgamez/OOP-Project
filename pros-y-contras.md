@@ -10,7 +10,7 @@ As of right now, we have three main ideas we want to work on: **Busca UN libro**
 
 pros|contras
 ---|---
-Its a very real project with solutions for real problems|we depend of several third parties to even start developing.
+Its a very real project with solutions for real problems.|We depend of several third parties to even start developing.
 
 ### Laundry App
 
