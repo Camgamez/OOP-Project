@@ -12,7 +12,7 @@ pros|contras
 ---|---
 Its a very real project with solutions for real problems|we depend of several third parties to even start developing.
 We are contributing to the UN library's system for the benefit of all its workers and users|We predent to work a very big data base. 
-
+The mapping system its a good idea|A mapping tool its a completely different technology.
 
 ### Laundry App
 
