@@ -24,3 +24,4 @@ pros|contras
 pros|contras
 ---|---
 Its very object oriented|We would be tackling rather a social problem which its not completely defined.
+Gives a better and more dinamic experience for a user interested in learn about that problematic.|We need to work in a system that integrates both sides of the project: the social prolematic and the gameplay.
