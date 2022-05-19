@@ -1,0 +1,174 @@
+/*
+Autor: Camilo Gamez
+Clase: Programación Orientada a Objetos
+*/
+
+.barra-colapsable {
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    box-shadow: 0 8px 16px 0 rgba(118, 35, 47, 0.5);
+    background-color: rgb(177, 178, 176);
+}
+
+
+.boton-chat {
+    background-color: rgb(148, 180, 59);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 350px;
+    text-aling: left;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+}
+
+.contennido {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(70, 107, 63);
+}
+
+.bloque-chat {
+    width: 350px;
+    background: rgb(177, 178, 176);
+    overflow: auto;
+    scrollbar-width: none;
+    text-align: center;
+    transition: max-height 0.2s ease-out;
+}
+
+.contenedor-ext {
+    min-height: 500px;
+    bottom: 0%;
+    position: relative;
+}
+
+.contenedor-chat {
+    max-height:  500px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    scroll-behavior: smooth;
+    hyphens: auto;
+}
+
+.contenedor-chat::-webkit-scrollbar{
+    display: compact;
+}
+
+.barra-chat-input-usuario{
+    display: flex;
+    float: left;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(70, 107, 63);
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+    font-size: 20px;
+}
+
+#icono-envio:hover {
+    opacity: .7;
+}
+
+#input-usuario {
+    width: 100%;
+}
+
+.input-caja{
+    float: left;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    outline: none
+}
+
+.textoUsuario {
+    color: white;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+    clear: both;
+}
+
+.textoUsuario span {
+    line-height: 1.5em;
+    display: inline-block;
+    background: rgb(86, 90, 92);
+    padding: 10px;
+    border-radius: 8px 8px 2px 8px;
+    max-width: 86%;
+    margin-right: 10px;
+    animation: floatup .5s forwards;
+}
+
+.textoBot {
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+
+.textoBot span {
+    line-height: 1.5em;
+    display: inline-block;
+    background: #2678ba;
+    padding: 10px;
+    border-radius: 8px 8px 8px 2px;
+    max-width: 80%;
+    margin-left: 10px;
+    animation: floatup .5s forwards;
+}
+
+@keyframes floatup{
+    from {
+        transform: translateY(14px);
+        opacity: .0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:600px){
+    .bloque-chat {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .barra-colapsable {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+    .boton-chat {
+        width: 100%;
+        border: 0px;
+        border-top: 3px solid white;
+        border-radius: 0px;
+    }
+}

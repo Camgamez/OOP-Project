@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacho</title>
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  </head>
+    <body>
+      <!-- Burbuja botón de chat -->
+      <div class="barra-colapsable">
+        <button id="boton-chat" type="button" class="boton-chat">¡Habla con Nacho!
+          <i class="material-icons" id="chat-icon" style="color: white;">chat</i>
+        </button>
+        <div class="contennido">
+          <div class="bloque-chat">
+            <!-- Aqui adentro van los mensajes-->
+            <div class="contenedor-ext">
+              <div class="contenedor-chat">
+                <!-- Messages-->
+                <div id="cajaChat">
+                  <h5 id="marquilla-tiempo"></h5>
+                  <p id="mensajeBienvenida" class="textoBot"><span>Cargando...</span></p>
+                </div>
+
+                <!-- user input box -->
+                <div class="barra-chat-input-usuario">
+                  <div id="input-usuario">
+                    <label for="input-texto"><input id="input-texto"
+                                                    class="input-caja"
+                                                    type="text" name="msg"
+                                                    placeholder="Haz click aqui para escribir mensaje."></label>
+                    <p></p>
+                  </div>
+
+                  <div class="iconos">
+                    <i id="icono-envio" style="color: white" class="material-icons"
+                       onclick="botonEnvio()">send</i>
+                  </div>
+
+                  <div id="barra-chat-inf">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="static/scripts/responses.js"></script>
+  <script src="static/scripts/chat.js"></script>
+</html>
